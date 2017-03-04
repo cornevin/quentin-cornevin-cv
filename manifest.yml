@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: quentin-cornevin-cv
+  name: quentin-cornevin-cv
+  memory: 64M
+  stack: cflinuxfs2
